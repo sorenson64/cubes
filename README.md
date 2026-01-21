@@ -8,3 +8,7 @@ There are folders for each HPC platform used in the computation:
 - gadi: the GADI system provided by NCI Australia
 
 The code here was adapted from the olc repository
+
+Each system has its own code and data, although the code is basically the same.
+Each core output its own .out text file recording a periodic summary of its work.  Read the code to see what the data represents - the first two numbers indicate the interval covered.
+The data files are all zipped, as Github won't upload over 100 files at once.  For BD2, the data files are split into two zip files, as the browser upload limit of 25MB would be exceeded.
