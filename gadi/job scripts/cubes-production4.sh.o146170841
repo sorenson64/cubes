@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2025-07-30 13:48:35:
+   Job Id:             146170841.gadi-pbs
+   Project:            qk9
+   Exit Status:        0
+   Service Units:      5850.93
+   NCPUs Requested:    480                    NCPUs Used: 480             
+                                           CPU Time Used: 2805:15:24      
+   Memory Requested:   400.0GB               Memory Used: 102.56GB        
+   Walltime requested: 20:00:00            Walltime Used: 06:05:41        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================

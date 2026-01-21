@@ -1,0 +1,13 @@
+
+======================================================================================
+                  Resource Usage on 2025-07-25 00:42:39:
+   Job Id:             145710532.gadi-pbs
+   Project:            qk9
+   Exit Status:        -29 (Job failed due to exceeding walltime)
+   Service Units:      43214.13
+   NCPUs Requested:    480                    NCPUs Used: 480             
+                                           CPU Time Used: 21604:33:55     
+   Memory Requested:   400.0GB               Memory Used: 98.73GB         
+   Walltime requested: 45:00:00            Walltime Used: 45:00:53        
+   JobFS requested:    10.0GB                 JobFS used: 8.16MB          
+======================================================================================
