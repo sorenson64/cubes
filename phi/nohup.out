@@ -1,0 +1,75 @@
+[phi-4:458144] PMIX ERROR: PMIX_ERR_NOMEM in file ../../../../../../src/mca/gds/shmem/gds_shmem.c at line 1935
+[phi-4:458144] *** Process received signal ***
+[phi-4:458144] Signal: Segmentation fault (11)
+[phi-4:458144] Signal code: Address not mapped (1)
+[phi-4:458144] Failing at address: 0x28
+[phi-4:458144] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7ed9f6645330]
+[phi-4:458144] [ 1] /lib/x86_64-linux-gnu/libpmix.so.2(+0x13a8aa)[0x7ed9f393a8aa]
+[phi-4:458144] [ 2] /lib/x86_64-linux-gnu/libpmix.so.2(pmix_gds_base_store_modex+0x8f3)[0x7ed9f3936013]
+[phi-4:458144] [ 3] /lib/x86_64-linux-gnu/libpmix.so.2(+0x13a423)[0x7ed9f393a423]
+[phi-4:458144] [ 4] /lib/x86_64-linux-gnu/libpmix.so.2(+0x7a99b)[0x7ed9f387a99b]
+[phi-4:458144] [ 5] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(+0x1f2a8)[0x7ed9f68432a8]
+[phi-4:458144] [ 6] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(event_base_loop+0x4af)[0x7ed9f6844faf]
+[phi-4:458144] [ 7] /lib/x86_64-linux-gnu/libpmix.so.2(+0xa8eb1)[0x7ed9f38a8eb1]
+[phi-4:458144] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x9caa4)[0x7ed9f669caa4]
+[phi-4:458144] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x129c3c)[0x7ed9f6729c3c]
+[phi-4:458144] *** End of error message ***
+[phi-3:459007] PMIX ERROR: PMIX_ERR_NOMEM in file ../../../../../../src/mca/gds/shmem/gds_shmem.c at line 1935
+[phi-3:459007] *** Process received signal ***
+[phi-3:459007] Signal: Segmentation fault (11)
+[phi-3:459007] Signal code: Address not mapped (1)
+[phi-3:459007] Failing at address: 0x28
+[phi-3:459007] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x75be85045330]
+[phi-3:459007] [ 1] [phi-1:492135] PMIX ERROR: PMIX_ERR_NOMEM in file ../../../../../../src/mca/gds/shmem/gds_shmem.c at line 1935
+[phi-1:492135] *** Process received signal ***
+[phi-1:492135] Signal: Segmentation fault (11)
+[phi-1:492135] Signal code: Address not mapped (1)
+[phi-1:492135] Failing at address: 0x28
+/lib/x86_64-linux-gnu/libpmix.so.2(+0x13a8aa)[0x75be8253a8aa]
+[phi-3:459007] [ 2] /lib/x86_64-linux-gnu/libpmix.so.2(pmix_gds_base_store_modex+0x8f3)[0x75be82536013]
+[phi-3:459007] [ 3] /lib/x86_64-linux-gnu/libpmix.so.2(+0x13a423)[0x75be8253a423]
+[phi-3:459007] [ 4] /lib/x86_64-linux-gnu/libpmix.so.2(+0x7a99b)[0x75be8247a99b]
+[phi-3:459007] [ 5] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(+0x1f2a8)[0x75be852432a8]
+[phi-3:459007] [ 6] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(event_base_loop+0x4af)[0x75be85244faf]
+[phi-3:459007] [ 7] /lib/x86_64-linux-gnu/libpmix.so.2(+0xa8eb1)[0x75be824a8eb1]
+[phi-3:459007] [ 8] [phi-1:492135] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x9caa4)[0x75be8509caa4]
+[phi-3:459007] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x7dbb8f845330]
+[phi-1:492135] [ 1] /lib/x86_64-linux-gnu/libpmix.so.2(+0x13a8aa)[0x7dbb8cb3a8aa]
+[phi-1:492135] [ 2] /lib/x86_64-linux-gnu/libc.so.6(+0x129c3c)[0x75be85129c3c]
+[phi-3:459007] *** End of error message ***
+/lib/x86_64-linux-gnu/libpmix.so.2(pmix_gds_base_store_modex+0x8f3)[0x7dbb8cb36013]
+[phi-1:492135] [ 3] /lib/x86_64-linux-gnu/libpmix.so.2(+0x13a423)[0x7dbb8cb3a423]
+[phi-1:492135] [ 4] /lib/x86_64-linux-gnu/libpmix.so.2(+0x7a99b)[0x7dbb8ca7a99b]
+[phi-1:492135] [ 5] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(+0x1f2a8)[0x7dbb8f7ea2a8]
+[phi-1:492135] [ 6] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(event_base_loop+0x4af)[0x7dbb8f7ebfaf]
+[phi-1:492135] [ 7] /lib/x86_64-linux-gnu/libpmix.so.2(+0xa8eb1)[0x7dbb8caa8eb1]
+[phi-1:492135] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x9caa4)[0x7dbb8f89caa4]
+[phi-1:492135] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x129c3c)[0x7dbb8f929c3c]
+[phi-1:492135] *** End of error message ***
+[phi-2:459965] PMIX ERROR: PMIX_ERR_NOMEM in file ../../../../../../src/mca/gds/shmem/gds_shmem.c at line 1935
+[phi-2:459965] *** Process received signal ***
+[phi-2:459965] Signal: Segmentation fault (11)
+[phi-2:459965] Signal code: Address not mapped (1)
+[phi-2:459965] Failing at address: 0x28
+[phi-2:459965] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x45330)[0x78c919245330]
+[phi-2:459965] [ 1] /lib/x86_64-linux-gnu/libpmix.so.2(+0x13a8aa)[0x78c91673a8aa]
+[phi-2:459965] [ 2] /lib/x86_64-linux-gnu/libpmix.so.2(pmix_gds_base_store_modex+0x8f3)[0x78c916736013]
+[phi-2:459965] [ 3] /lib/x86_64-linux-gnu/libpmix.so.2(+0x13a423)[0x78c91673a423]
+[phi-2:459965] [ 4] /lib/x86_64-linux-gnu/libpmix.so.2(+0x7a99b)[0x78c91667a99b]
+[phi-2:459965] [ 5] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(+0x1f2a8)[0x78c9194662a8]
+[phi-2:459965] [ 6] /lib/x86_64-linux-gnu/libevent_core-2.1.so.7(event_base_loop+0x4af)[0x78c919467faf]
+[phi-2:459965] [ 7] /lib/x86_64-linux-gnu/libpmix.so.2(+0xa8eb1)[0x78c9166a8eb1]
+[phi-2:459965] [ 8] /lib/x86_64-linux-gnu/libc.so.6(+0x9caa4)[0x78c91929caa4]
+[phi-2:459965] [ 9] /lib/x86_64-linux-gnu/libc.so.6(+0x129c3c)[0x78c919329c3c]
+[phi-2:459965] *** End of error message ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[25924,0],0] on node thomas
+  Remote daemon: [[25924,0],4] on node phi-4
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
