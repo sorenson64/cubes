@@ -1,5 +1,6 @@
 # cubes
 Code and data for paper on integers with two prime factors between cubes
+https://arxiv.org/abs/2601.15564
 
 There are folders for each HPC platform used in the computation:
 - phi: the intel phi coprocessors (4 x 64 cores)
@@ -12,3 +13,5 @@ The code here was adapted from the olc repository
 Each system has its own code and data, although the code is basically the same.
 Each core output its own .out text file recording a periodic summary of its work.  Read the code to see what the data represents - the first two numbers indicate the interval covered.
 The data files are all zipped, as Github won't upload over 100 files at once.  For BD2, the data files are split into two zip files, as the browser upload limit of 25MB would be exceeded.
+
+See also https://github.com/DJmath1729/MertenBounds for additional code used in the paper cited above.
